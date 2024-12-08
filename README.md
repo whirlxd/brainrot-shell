@@ -74,7 +74,7 @@ brainrot
 You should see the Brainrot Shell prompt:
 
 ```
-Brainrot $
+@brainrot
 ```
 
 ### Available Commands
@@ -84,69 +84,68 @@ Brainrot Shell is a toy shell but still incredibly useful. Here are some of the 
 |--------------|------------------------------------------------|
 | `ragequit`   | Exit the shell.                               |
 | `yap`        | Display a line of text (similar to `echo`).   |
-| `type`       | Display information about command types.      |
-| `path`       | Display or modify the PATH variable.          |
+| `typeshi`       | Display information about command types.   |
 | `pwd`        | Print the current working directory.          |
-| `cd`         | Change the current directory.                 |
-| `cat`        | Display file contents.                        |
+| `hawktuah`   | Change the current directory.           |
+| `loot`        | Display file contents.                        |
 | `help`       | Display the help message.                     |
-| `ls`         | List files in the current directory.          |
+| `map`         | List files in the current directory.          |
 | `touch`      | Create a new empty file.                      |
-| `mkdir`      | Create a new directory.                       |
-| `rmdir`      | Remove an empty directory.                    |
+| `spawn`      | Create a new directory.                       |
+| `despawn`      | Remove an empty directory.                    |
 
 ### Examples
 
 #### Display a Message
 ```bash
-Brainrot> yap "Hello, Brainrot!"
+@brainrot yap "Hello, Brainrot!"
 ```
 
 #### List Files
 ```bash
-Brainrot> ls
+@brainrot map
 ```
 
 #### Print Working Directory
 ```bash
-Brainrot> pwd
+@brainrot pwd
 ```
 
 #### Change Directory
 ```bash
-Brainrot> cd path/to/directory
+@brainrot hawktuah path/to/directory
 ```
 
 #### Create a New File
 ```bash
-Brainrot> touch newfile.txt
+@brainrot touch newfile.txt
 ```
 
 #### Create a New Directory
 ```bash
-Brainrot> mkdir newdirectory
+@brainrot spawn newdirectory
 ```
 
-#### Remove an Empty Directory
+#### Remove a Directory
 ```bash
-Brainrot> rmdir olddirectory
+@brainrot despawn olddirectory
 ```
 
 #### Display File Contents
 ```bash
-Brainrot> cat file.txt
+@brainrot loot file.txt
 ```
 
 #### Get Help
 ```bash
-Brainrot> help
+@brainrot help
 ```
 
 ### Exiting the Shell
 To exit Brainrot Shell, type:
 
 ```bash
-Brainrot> ragequit
+@brainrot ragequit
 ```
 
 ## Troubleshooting
@@ -191,10 +190,10 @@ If you added `%USERPROFILE%\Scripts` to your PATH and no longer need it, you can
 Close all Command Prompt windows and open a new one to apply the changes.
 
 ## License
-This project is licensed under the [Your License Here].
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements. If you have a suggestion for a new name for a command or a new command, feel free to share it through an issue.
 
 ## Acknowledgements
 Inspired by the CodeCrafters "Build Your Own X" challenge. The readme was made with help of chatgpt 💀.
