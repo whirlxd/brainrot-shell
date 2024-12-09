@@ -74,7 +74,7 @@ brainrot
 You should see the Brainrot Shell prompt:
 
 ```
-@brainrot
+@brainrot ~$
 ```
 
 ### Available Commands
@@ -93,59 +93,69 @@ Brainrot Shell is a toy shell but still incredibly useful. Here are some of the 
 | `touch`      | Create a new empty file.                      |
 | `spawn`      | Create a new directory.                       |
 | `despawn`      | Remove an empty directory.                    |
+| `unalive`      | Remove a directory w/its contents.          |
+| `wipeout`      | Clear the session        |
+| `fanum`      | View the top 20 processes and their tax (cpu usage)      |
+| `showgyatt`      | Show the files in directory sorted by their size and with it      |
+| `ksi`      | Get ksi to say anything (like cat say).                    |
+| `thickofit`      | Im in the thick of it everybody knows.           |
+
+
+
+
 
 ### Examples
 
 #### Display a Message
 ```bash
-@brainrot yap "Hello, Brainrot!"
+@brainrot~$ yap "Hello, Brainrot!"
 ```
 
 #### List Files
 ```bash
-@brainrot map
+@brainrot~$ map
 ```
 
 #### Print Working Directory
 ```bash
-@brainrot pwd
+@brainrot~$ pwd
 ```
 
 #### Change Directory
 ```bash
-@brainrot hawktuah path/to/directory
+@brainrot~$ hawktuah path/to/directory
 ```
 
 #### Create a New File
 ```bash
-@brainrot touch newfile.txt
+@brainrot~$ touch newfile.txt
 ```
 
 #### Create a New Directory
 ```bash
-@brainrot spawn newdirectory
+@brainrot~$ spawn newdirectory
 ```
 
 #### Remove a Directory
 ```bash
-@brainrot despawn olddirectory
+@brainrot~$ despawn olddirectory
 ```
 
 #### Display File Contents
 ```bash
-@brainrot loot file.txt
+@brainrot~$ loot file.txt
 ```
 
 #### Get Help
 ```bash
-@brainrot help
+@brainrot~$ help
 ```
 
 ### Exiting the Shell
 To exit Brainrot Shell, type:
 
 ```bash
-@brainrot ragequit
+@brainrot~$ ragequit
 ```
 
 ## Troubleshooting
